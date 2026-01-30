@@ -1,0 +1,51 @@
+# ----------------------
+# Python virtual envs
+# ----------------------
+.venv/
+venv/
+env/
+
+# ----------------------
+# Python cache / build
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# OS junk
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/
+!.vscode/extensions.json
+
+# ----------------------
+# Logs / temp files
+# ----------------------
+*.log
+*.tmp
+
+# ----------------------
+# Data outputs (optional)
+# Uncomment if you don't want to commit derived data
+# ----------------------
+# data/*.csv
+# data/*.parquet
+# data/*.xlsx
+
+# ----------------------
+# Environment / secrets
+# ----------------------
+.env
+.env.*
